@@ -1,4 +1,4 @@
-	@media only screen and (max-width:900px) {
+	@media only screen and (min-width:320px) {
 		h1{
 			font-family: "Times New Roman", Times, serif;
 			font-size: 100%;
@@ -10,7 +10,7 @@
 	font-size: 500%;
 	text-align: center;
 	color: royalblue;
-	background-color: green;
+	background-color: linen;
 	margin-bottom: 0px; 
 }
 h2{
@@ -18,12 +18,12 @@ h2{
 	font-size :190%;
 	font-family: "Times New Roman", Times, serif;
 	margin-bottom: 80px;
-	background-color: green;
+	background-color: mediumspringgreen;
 	color: 
 
 }
 .summary p{
-	font-family: "Times New Roman", Times, serif;
+	font-family: cursive;
 	font-size:90%;
 	margin-left: 100px;
 	width: 40%;
