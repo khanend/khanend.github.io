@@ -1,11 +1,11 @@
-@media only screen and (min-width:320px) and (max-width: 800px) {
+	@media only screen and (min-width:320px) {
 		h1{
-			font-family: fantasy;
+			font-family: "Times New Roman", Times, serif;
 			font-size: 100%;
+			color:red;
 		}
 	}
-
-h1{
+	h1{
 	font-family:cursive;
 	font-size: 500%;
 	text-align: center;
@@ -16,9 +16,9 @@ h1{
 h2{
 	text-align: center;
 	font-size :190%;
-	font-family: Georgia,serif;
+	font-family: "Times New Roman", Times, serif;
 	margin-bottom: 80px;
-	background-color: mediumspringgreen;
+	background-color: green;
 	color: 
 
 }
@@ -154,3 +154,5 @@ h2{
 body{
 	background-color:linen; 
 }
+} 
+
