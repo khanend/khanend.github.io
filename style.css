@@ -1,0 +1,158 @@
+	@media only screen and (min-width:320px) {
+		h1{
+			font-family: "Times New Roman", Times, serif;
+			font-size: 100%;
+			color:red;
+		}
+	}
+	h1{
+	font-family:cursive;
+	font-size: 500%;
+	text-align: center;
+	color: royalblue;
+	background-color: linen;
+	margin-bottom: 0px; 
+}
+h2{
+	text-align: center;
+	font-size :190%;
+	font-family: "Times New Roman", Times, serif;
+	margin-bottom: 80px;
+	background-color: mediumspringgreen;
+	color: 
+
+}
+.summary p{
+	font-family: cursive;
+	font-size:90%;
+	margin-left: 100px;
+	width: 40%;
+}
+.summary a{
+	color: slateblue;
+}
+.preamble h3{
+	font-family: Georgia,serif;
+ 	font-size :140%;
+ 	margin-left: 100px;
+ 	margin-top: 40px;
+ 	background-color: mediumspringgreen;
+	width: 15%;
+}
+.preamble p{
+	font-family: cursive;
+	font-size: 90%;
+	margin-left :100px;
+	width: 40%;
+}
+.explanation h3{
+	font-family: Georgia,serif;
+	font-size: 140%;
+	margin-left:100px;
+	background-color: mediumspringgreen;
+	width: 22%;
+}
+.explanation p{
+	font-family: cursive;
+	font-size :90%;
+	width: 40%;
+	margin-left:100px; 
+}
+.participation h3{
+	font-family: Georgia,serif;
+	font-size:140%;
+	margin-left: 100px;
+	background-color: mediumspringgreen;
+	width: 13%;
+}
+.participation p{
+	font-family: cursive;
+	font-size:90%;
+	margin-left: 100px;
+	width: 40%;
+}
+.participation a{
+	color: slateblue;
+}
+.benefits h3{
+	font-family: Georgia,serif;
+	font-size: 140%;
+	margin: -975px 50px 20px 900px;
+	background-color: mediumspringgreen;
+	width: 8%;
+	
+}
+.benefits p{
+	width: 30%;
+	margin-left:770px;
+	font-family: cursive;
+}
+.requirements h3{
+	margin-left: 870px;
+	font-size: 140%;
+	font-family: Georgia,serif;
+	background-color: mediumspringgreen;
+	width: 14%;
+}
+.requirements p{
+	width: 30%;
+	font-family: cursive;
+	margin-left: 770px;
+}
+.requirements a{
+	color: slateblue;
+}
+
+.design-selection h3{
+	font-family: Georgia,serif;
+	font-size: 120%;
+	margin:180px 100px 10px 100px;
+	background-color: greenyellow;
+	width: 13%;
+} 
+.design-selection li{
+	font-family: cursive;
+	font-size: 90%;
+	margin-left: 40px;
+}
+.design-selection a{
+	color: slateblue;
+}
+.design-archives h3{
+	font-family: Georgia,serif;
+	font-size: 120%;
+	margin:-215px 0px 0px 500px;
+	background-color: greenyellow;
+	width: 8%;
+}
+.design-archives li{
+	font-family: cursive;
+	font-size: 90%;
+	margin: 0px 0px 0px 450px;
+
+}
+.design-archives a{
+	color: slateblue;
+}
+.zen-resources h3{
+	font-family: Georgia,serif;
+	margin:-95px 0px 0px 800px;
+	background-color: greenyellow;
+	width: 9%;
+}
+.zen-resources li{
+	font-family: cursive;
+	font-size: 90%;
+	margin: 0px 0px 0px 750px;
+}
+.zen-resources a{
+	color: slateblue;
+}
+.zen-validate-html{
+	margin: 0px 0px 0px 850px;
+}
+body{
+	background-color:linen; 
+}
+} 
+
