@@ -1,6 +1,6 @@
 	@media only screen and (max-width:900px) {
 		h1{
-			font-family:Arial Narrow, sans-serif
+			font-family: "Times New Roman", Times, serif;
 			font-size: 100%;
 			color:red;
 		}
