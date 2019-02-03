@@ -1,31 +1,5 @@
-h1{
-	font-family: 'Major Mono Display', monospace;
-	font-size: 400%;
-	margin-bottom: 60px;
-	border-color: black ;
-	border-style: solid;
-	background-color: mediumorchid;
-	animation-name: example;
-	animation-duration: 5s;
-	animation-delay: 2s;
-	animation-iteration-count: infinite;
-	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
-  	height: 100%;
-  	width: 110%;
-}
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
-  from {background-color: mediumorchid;}
-  to {background-color: blue;}
-}
-/* standart*/
-@keyframes example {
-  30%{background-color: mediumorchid;}
-  30%{background-color :red;}
-  30%{background-image: linear-gradient( blue,springgreen );}
 
-}
+/* Safari 4.0 - 8.0 
 .css p{
 	text-indent:8%; 
 	font-family: 'Sarabun', sans-serif;
