@@ -1,0 +1,129 @@
+h1{
+	font-family: 'Major Mono Display', monospace;
+	font-size: 400%;
+	margin-bottom: 60px;
+	border-color: black ;
+	border-style: solid;
+	background-color: mediumorchid;
+	animation-name: example;
+	animation-duration: 5s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  	height: 100%;
+  	width: 110%;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {background-color: mediumorchid;}
+  to {background-color: blue;}
+}
+/* standart*/
+@keyframes example {
+  30%{background-color: mediumorchid;}
+  30%{background-color :red;}
+  30%{background-image: linear-gradient( blue,springgreen );}
+
+}
+.css p{
+	text-indent:8%; 
+	font-family: 'Sarabun', sans-serif;
+	font-size: 120%;
+	width: 75%;
+	margin-bottom: 70px;
+	margin-left: 10px;
+	border-color: black;
+	border-style: solid;
+	background-image: linear-gradient(red, yellow);
+	padding : 20px 20px 20px 20px; 
+}
+.home h3{
+	font-family: 'Major Mono Display', monospace;
+	font-size: 200%;
+	margin-left: 20px;
+	margin-bottom: 50px;
+	background-color: cornflowerblue ;
+	border-color: transparent; ;
+	border-style: solid;
+	width: 100px;
+
+}
+.homep{
+	font-family: 'Sarabun', sans-serif;
+	font-size: 120%;
+	width: 73%;
+	text-indent: 5%;
+}
+.home p{
+	font-family: 'Sarabun', sans-serif;
+	font-size: 120%;
+	width: 73%;
+	margin-left: 30px;
+	margin-bottom: 70px;
+}
+.home ul li{ 
+	font-family: 'Sarabun', sans-serif;
+	font-size: 120%;
+	width: 73%;
+	margin-bottom: 5px;
+}
+.home ul p {
+	margin-top: 70px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+.index h3{
+	font-family: 'Major Mono Display', monospace;
+	font-size: 200%;
+	margin-top: 50px;
+	background-color: cornflowerblue ;
+	border-color: transparent; ;
+	border-style: solid;
+	width: 120px;
+}
+.indexp {
+	font-family: 'Sarabun', sans-serif;
+	font-size: 120%;
+	width: 73%;
+	text-indent: 5%;
+}
+.index p{
+	font-family: 'Sarabun', sans-serif;
+	font-size: 120%;
+	width: 73%;
+	margin-top: 60px;
+}
+.index li{
+	font-family: 'Sarabun', sans-serif;
+	font-size: 120%;
+	width: 73%;
+}
+.summary h2{
+	font-family: 'Major Mono Display', monospace;
+	font-size: 200%;
+	margin-top:70px;
+	background-color: cornflowerblue ;
+	border-color: transparent; ;
+	border-style: solid;
+	width: 200px; 
+}
+.summary{
+	font-family: 'Sarabun', sans-serif;
+	font-size: 120%;
+	width: 73%;
+}
+.indep2{
+	font-family: 'Sarabun', sans-serif;
+	font-size: 120%;
+	width: 73%;
+	text-indent: 5%;
+	margin-left: 20px;
+}
+.index ul p {
+	margin-bottom: : 0;
+}
+body{	
+	background-color: linen   ;
+
+}
