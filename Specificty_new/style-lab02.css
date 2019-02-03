@@ -12,7 +12,7 @@ h1{
 	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
   	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
   	height: 100%;
-  	width: 110%;
+  	width: 130%;
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
