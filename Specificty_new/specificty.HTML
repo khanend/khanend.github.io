@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>CSS Specificty</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style-lab02.css">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Sarabun" rel="stylesheet">
+</head>
+<body id="css-specificity">
+	<div><h1>Css specificy</h1></div>
+	<div class="css">
+		<p>css specificy อธิบายได้สั้นๆคือ css rules 2 ตัวที่มี selector ต่างกัน มาใช้ html ที่มี element เดียวกัน และโครงสร้างของ index.html และ home.html จะมีความคล้ายคลึงกันมากสีของปุ่ม home.html และ index.html จะมีข้อแตกต่างกับตัวเกิดจาการที่ link ของลำดับ style1 และ style2 สังเกตการทำงานของ style ได้ดังหัวข้อต่อไปนี้</p>
+
+	</div>
+	<div class="discription">
+	</div>
+	<div class="home">
+		<h3>Home</h3>
+		<img src="https://raw.githubusercontent.com/khanend/khanend.github.io/master/New%20folder/home-code.JPG" width="500" height="350">
+		<p>ภาพโครงสร้างของ home.html</p>
+		<img src="https://raw.githubusercontent.com/khanend/khanend.github.io/master/New%20folder/Home.JPG " width="500" height="350"  >
+		<p class="homep">จากภาพของตัวอย่างของ home.html ด้านบนสีของปุ่ม home และ index จะมีข้อแตกต่างกันซึ่งเกิดจาการที่ link ของลำดับในการเรียกตัว style-css1 และ style-css2 มีลำดับดังรูป</p>
+		<img src="https://raw.githubusercontent.com/khanend/khanend.github.io/master/New%20folder/home-head.JPG" width="340" height="230">
+		<p>link ของ home.html จะมีการเชื่อมโยงของ external css style-2 แล้วตามด้วย style-1 </p>
+		<ul >
+			<img src="https://raw.githubusercontent.com/khanend/khanend.github.io/master/New%20folder/style02.JPG" width="340" height="250">
+			<p>#style-2 จะพบว่ามี ul li.active a, ul li a, ul li.active เป็น selector </p>
+		<li>
+			ul li.active a ต้องการให้คลาส active ใน tag a เป็นสี gold ซึ่งสามารถเทียบกับโครงาร้างของ code home.html ด้านบนได้
+			 </li>
+		<li>
+			ul li a ต้องการให้คำว่า index แสดงเป็นสี red
+			</li>
+		<li>
+		 li.active ต้องการให้พื้นหลังหน้าปุ่ม home เป็น transparent(พื้นหลังโปร่งใส)
+			</li>
+		</ul>
+		<ul>
+			<img src="https://raw.githubusercontent.com/khanend/khanend.github.io/master/New%20folder/style01.JPG" width="340" height="250">
+			<p>#style-1 ที่ทำงานต่อจาก style-2 กฎของcss rule 2 จะแสดงผลของ selector ของลำดับสุดท้ายเสมอ</p>
+		<li>
+			ul li a ปุ่ม index จะแสดงสีแดง
+			</li>
+		<li>
+			ul li.active จะแสดงพื้นหลังเป็นสีเขียวเนื่องจากเอา selector ลำดับสุดท้าย 
+		</li>
+	</ul>
+	</div>
+	<div class="index">
+		<h3>Index</h3>
+		<img src="https://raw.githubusercontent.com/khanend/khanend.github.io/master/New%20folder/index-code.JPG" width="500" height="350">
+		<p>ภาพโครงสร้างของ code index.html</p>
+		<img src="index.jpg" width="500" height="350">
+		<p class="indexp">จากภาพตัวอย่าง index.html ด้านบน สีของปุ่ม home และ index จะมีข้อแตกต่างกันเกิดจาการที่ link ของลำดับในการเรียกตัว stlye-css1 และ style-css2 	มีลำดับดังรูป</p>
+		<img src="https://raw.githubusercontent.com/khanend/khanend.github.io/master/New%20folder/index-head.JPG" width="340" height="250">
+		<ul>
+			<img src="https://raw.githubusercontent.com/khanend/khanend.github.io/master/New%20folder/style01.JPG" width="340" height="230">
+			<p>#style-1 จะเห็นได้ว่ามี selector ul li a, ul li.active</p>
+		<li>
+			ul li a จะทำให้ home แสดงเป็น red ซึ่งสามารถเทียบกับโครงาร้างของ code index.html ด้านบนได้
+		 </li>
+
+		<li>
+			ul li.active จะให้ ปุ่มindex กำสีเป็น gold
+		</li>
+
+		</ul>
+			<img src="https://raw.githubusercontent.com/khanend/khanend.github.io/master/New%20folder/style02.JPG" width="340" height="230">
+		<p class="indep2">style-2 ที่ต่อจาก style-1 จะเห็นว่ามี selector ul li active a ทำให้ index ออกมาเป็น gold และ ul li a 
+		จะทำให้ home เป็น red เหมือนเดิมเพราะสีเหมือนกันส่วน ul li.active จะทำให้พื้นหลังโปร่งใส (ไม่มีสีพื้นหลัง)แทนที่สีเขียวดังรูปด้านบน</p>
+	</div>
+	<div class="summary">
+		<h2>Summary</h2>
+		<p>อย่างที่ทราบ จากหัวข้อ home และ index ข้างต้น จะเห็นได้ว่าสีของปุ่มสามารถเปลี่ยนแปลงได้ขึ้นกับลำดับของ css rule ซึ่งจะแสดงผลจาก selector ลำดับสุดท้าย</p>
+	</div>
+</body>
+</html>
