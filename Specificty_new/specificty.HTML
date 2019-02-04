@@ -10,8 +10,22 @@
 	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Sarabun" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body id="css-specificity">
+		<div id="div1" class="fa" ></div>
+	<script>
+		function openfolder() {
+	  var a;
+	  a = document.getElementById("div1");
+	  a.innerHTML = "&#xf114;";
+	  setTimeout(function () {
+	      a.innerHTML = "&#xf115;";
+	    }, 1000);
+	}
+	openfolder();
+	setInterval(openfolder, 2000);
+	</script>
 	<div><h1>Css specificy</h1></div>
 	<div class="css">
 		<p>css specificy อธิบายได้สั้นๆคือ css rules 2 ตัวที่มี selector ต่างกัน มาใช้ html ที่มี element เดียวกัน และโครงสร้างของ index.html และ home.html จะมีความคล้ายคลึงกันมากสีของปุ่ม home.html และ index.html จะมีข้อแตกต่างกับตัวเกิดจาการที่ link ของลำดับ style1 และ style2 สังเกตการทำงานของ style ได้ดังหัวข้อต่อไปนี้</p>
@@ -55,7 +69,7 @@
 		<h3>Index</h3>
 		<img src="https://raw.githubusercontent.com/khanend/khanend.github.io/master/New%20folder/index-code.JPG" width="500" height="350">
 		<p>ภาพโครงสร้างของ code index.html</p>
-		<img src="https://raw.githubusercontent.com/khanend/khanend.github.io/master/New%20folder/Index.JPG" width="500" height="350">
+		<img src="index.jpg" width="500" height="350">
 		<p class="indexp">จากภาพตัวอย่าง index.html ด้านบน สีของปุ่ม home และ index จะมีข้อแตกต่างกันเกิดจาการที่ link ของลำดับในการเรียกตัว stlye-css1 และ style-css2 	มีลำดับดังรูป</p>
 		<img src="https://raw.githubusercontent.com/khanend/khanend.github.io/master/New%20folder/index-head.JPG" width="340" height="250">
 		<ul>
