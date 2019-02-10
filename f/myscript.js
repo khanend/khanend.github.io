@@ -1,3 +1,4 @@
+$( "#ta" ).hide();
 $(document).ready(function() {
     $.ajax({
         url: "data.json",
@@ -21,13 +22,13 @@ $(document).ready(function() {
     });
 });
 
-$('#submit-btn').click(function(){
-    var y = $('#input-text').val().toLowerCase();
-    var x ="";
+
+$('#search').click(function(){
     $.ajax({
         url: "data.json",
         dataType: "json"
     }).done(function(response) {
+        $( "#ta" ).show();
         response.forEach(element =>{ 
             if($("#name").prop("checked")==true){
                 if(element.name.toLowerCase().includes(y)){   
@@ -172,7 +173,17 @@ $('#submit-btn').click(function(){
                 "<td>"+element.maincharacter+"</td></tr>";
                 $('#table-item').html(x);
             }
+        });
+    });
+})
+$('#submit-btn').click(function(){
+    var y = $('#input-text').val().toLowerCase();
+    var x ="";
+    $.ajax({
+        url: "data.json",
+        dataType: "json"
+    }).done(function(response) {
+        response.forEach(element =>{ 
+           
            
         })
-    })
-});
