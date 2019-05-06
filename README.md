@@ -48,7 +48,8 @@ FinalProject
 
 ## Api reference
 - Facebook api 
-- api การซื้อ-ขายของ
+- Api ตอนเพิ่มตะกร้าสินค้า
 
 ## License
 - Apache, Laragon, Xampp
+- program >> phpstorm , Visual studio code
