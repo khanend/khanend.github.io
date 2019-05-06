@@ -19,11 +19,11 @@ FinalProject
 | 5910451189 | นางสาว ยศวดี ปัญญานิมิตร |
 | 5910451227 | นาย สมัชญ์ พูนขวัญ |
 
-#สรุป
+# สรุป
 เว็บ `shop ku` จัดทำเพื่อเป็นการศึกษาและพัฒนาในรูปแบบงานโปรเจคของรายวิชา Web-tech
-[ลิ้งเว็บ Shop-ku](http://www.shop-ku.esy.es)
+[Link Shop-ku](http://www.shop-ku.esy.es)
 
-#การทำงาน
+# การทำงาน
 `Adimin` 
 - ดูภาพรวมระบบได้ อาทิเช่น จำนวน user, จำนวนสินค้าในระบบ,orderทั้งหมด,จำนวนแอดมิน order ล่าสุดที่ทำการซื้อขายในระบบ
 
@@ -47,9 +47,9 @@ FinalProject
 - ดูประวัติการสั่งซื้อได้ ,รหัสสั่งซื้อ
 
 
-#Api reference
-facebook api 
-api การซื้อ-ขายของ
+# Api reference
+- facebook api 
+- api การซื้อ-ขายของ
 
-#License
-Apache,laragon,xampp
+# License
+- Apache,laragon,xampp
