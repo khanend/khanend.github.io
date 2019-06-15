@@ -1,0 +1,81 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+ #khan{
+     margin-left: 30px;
+     font-size :20px;
+ }
+
+#You{
+      margin-top: 40px;
+      margin-left: 30px;
+      font-size: 35px;
+  }
+#s{
+    font-size: 80px;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .flex-container #tec{
+    width: 1000px;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    text-align: center;
+    line-height: 75px;
+    margin-top: 50px;
+    font-size: 70px;
+  }
+  .flex-container #tec2{
+    font-size: 21px;
+    margin-left: 70px;
+    width: 450px;
+  }
+  #jer{
+      margin-left: 60px;
+      margin-top: 40px;
+  }
+
+  /* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    
+
+    overflow-x: hidden; /* Disable horizontal scroll */
+     margin-left: 1000px;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196F3;
+    display: block;
+  }
+#p {
+    font-size: 50px;
+}
