@@ -1,15 +1,37 @@
-ul {
+
+ul.a {
     list-style: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    background-size: cover;
+
+  }
+  #life{
+    font-family: Georgia;
+    padding : 0px 0px 0px 30px;
+    font-size: 60px;
+    height: 100px;
+    background-size: cover;
+    background-image: linear-gradient( rgb(19, 168, 168), rgb(0, 162, 255)); /* Standard syntax (must be last) */
+
   }
   
-  li {
+  #intro{
+    font-family: Georgia;
+    padding : 0px 20px 5px 30px;
+    font-size: 25px;
+    color: #333;
+
+
+  }
+  li.dev {
     float: left;
   }
-  
+  li.profile{
+    font-size: 30px;
+  }
   li a {
     display: block;
     color: white;
@@ -31,6 +53,7 @@ ul {
       margin-top: 40px;
       margin-left: 30px;
       font-size: 35px;
+
   }
 #s{
     font-size: 80px;
@@ -40,7 +63,7 @@ ul {
     flex-direction: column;
 
   }
-  
+ 
   .flex-container #tec{
     width: 1000px;
     margin-left: 100px;
@@ -55,11 +78,13 @@ ul {
     margin-left: 70px;
     width: 450px;
   }
+
   #jer{
-      margin-left: 60px;
+      margin-left: 30%;
       margin-top: 40px;
   }
 
+  
   /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -78,4 +103,45 @@ ul {
   }
 #p {
     font-size: 50px;
+}
+#ste{
+  font-weight:500px;
+  font-family: Georgia;
+  margin-left: 180px;
+  width: 22em; 
+  word-wrap: break-word; 
+  margin-top: 50px;
+
+}
+#i{
+  font-weight:500px;
+  font-family: Georgia;
+  margin-left: 200px;
+  font-size: 40px;
+  width: 20em; 
+  word-wrap: break-word; 
+}
+hr {
+  height: 1px;
+  color: #ed1d61;
+  background: #ed1d61;
+  font-size: 0;
+  border: 0;
+}
+.roller
+{
+    width: 800px;
+    height: 200px;
+}
+.roller img
+{
+    float: left;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;   
+    -webkit-transition: 1s Ease;
+}
+.roller:hover img
+{
+    -webkit-transform: translate(630px, 0px) rotate(360deg);
 }
